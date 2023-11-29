@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: yellowgreen;
+  font-family: 'Courier New', Courier, monospace;
+}
+header {
+  border: 1px dashed yellowgreen;
+  font-size: 10px;
+
+  width: 100%;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.content {
+  position: relative;
+  top: 120px;
+  border: 1px dashed yellowgreen;
+  font-size: 10px;
+  padding: 2px;
+
+  height: 60px;
+}
+button {
+  color: white;
+  height: 16px;
+  background-color: white;
+  color: black;
+}
+.sidebar {
+  padding: 11px;
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  font-size: 10px;
+
+  border: 1px dashed yellowgreen;
+}
+.features {
+  position: relative;
+  text-align: center;
+  top: 140px;
+  font-size: 10px;
+  border: 1px dashed yellowgreen;
+}
+footer {
+  position: absolute;
+  padding: 1px;
+  bottom: 8px;
+  width: 100%;
+  border: 1px dashed yellowgreen;
+  text-align: center;
+}
